@@ -155,3 +155,5 @@ ReAct uses 5 model calls / 897 tokens for S1, 3 / 337 for S5, and 2 / 72 for S6 
 
 ## Limitations and Next Steps
 The Premium flag uses whole-window RFM, including September, so the Premium retention list is illustrative and not a leakage-free evaluation; the lapse model’s own features still exclude all data from 2025-09-01 onward. The supplied mock is deterministic rule-based behavior, not a real language model. The database and refund ledger are local teaching artifacts, not production-grade controls or payment processing. Next steps for a production system include access control, durable idempotent transactions, monitoring, schema contracts, temporal validation, drift review, and human approval operations.
+#   i n s t a m a r t - c o p i l e t  
+ 
